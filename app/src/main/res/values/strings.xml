@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">meApps</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_nim">NIM</string>
+    <string name="title_nama">Nama</string>
+    <string name="title_kelas">Kelas</string>
+</resources>

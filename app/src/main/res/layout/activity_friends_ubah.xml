@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    tools:context=".Views.ContactsFragment">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@drawable/bg_home"
+            android:scaleX="2"
+            android:translationY="-40dp">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/font_judul"
+            android:gravity="center"
+            android:text="MeApps"
+            android:textColor="@color/colorSecondaryLight"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="6dp"
+            android:gravity="end"
+            android:backgroundTint="@color/colorSecondary"
+            android:drawableLeft="@drawable/ic_arrow"
+            android:tint="#FFF" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etNim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_nim"
+            android:drawablePadding="10dp"
+            android:hint="NIM"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_person"
+            android:drawablePadding="10dp"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etKelas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_kelas"
+            android:drawablePadding="10dp"
+            android:hint="Kelas"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etTelepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_phone"
+            android:drawablePadding="10dp"
+            android:hint="Telepon"
+            android:inputType="number"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_mail"
+            android:drawablePadding="10dp"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/etSosmed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:drawableLeft="@drawable/ic_sosmed"
+            android:drawablePadding="10dp"
+            android:hint="Sosial Media"
+            android:inputType="text"
+            android:maxLines="1"
+            android:padding="10dp"
+            android:singleLine="true"
+            android:textColorHint="#dddddd"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/btnUpdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_add_friends"
+            android:textColor="@color/colorSecondaryLight"
+            android:rotation="-4"
+            android:text="Perbarui"/>
+        <Button
+            android:id="@+id/btnHapus"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_add_friends"
+            android:textColor="@color/colorSecondaryLight"
+            android:rotation="-4"
+            android:text="Hapus"/>
+
+    </LinearLayout>
+</LinearLayout>
